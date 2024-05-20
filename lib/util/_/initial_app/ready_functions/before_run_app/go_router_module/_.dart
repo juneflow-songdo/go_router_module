@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:go_router_module/util/config/go_router_module/_.dart';
 
 import '../../../../../../main.dart';
+import '../../../../../config/go_router_module/_.dart';
 import '../../../../shared_params/_/material_app.dart';
 import '../../../../shared_params/_/material_app_obj.dart';
 import '../../../build_app_widget/build_material_app/_.dart';

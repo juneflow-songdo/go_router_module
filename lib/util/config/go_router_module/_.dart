@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:go_router_module/util/_/shared_params/_/material_app.dart';
 // import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 import '../../../main.dart';
+import '../../_/shared_params/_/material_app.dart';
 
 void setGoRouterPathUrlStrategy() {
   // if you want to use hash urls, need to uncomment the import 'package:flutter_web_plugins/flutter_web_plugins.dart';

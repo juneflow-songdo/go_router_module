@@ -1,7 +1,7 @@
 name: go_router_module
 description: "Help Applying GoRouter in Flutter"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/go_router_module
 
 version: 1.0.0+1
 

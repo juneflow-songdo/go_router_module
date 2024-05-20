@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/View-Hub-007bff?style=for-the-badge&logo=flutter)](https://view.juneflow.org/)
 
 # go_router_module
-description here
+Help Applying GoRouter in Flutter
 
 ##  Installation
 1. If the juneflow project doesn't exist, please create it by following [this guide](https://doc.juneflow.org/).
@@ -14,4 +14,4 @@ description here
  ```
 
 ## Usage
-Usage here
+config routing in `lib/util/config/go_router_module/_.dart`

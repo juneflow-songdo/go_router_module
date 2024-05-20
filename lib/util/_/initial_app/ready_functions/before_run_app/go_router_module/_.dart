@@ -6,15 +6,16 @@ import '../../../../shared_params/_/material_app.dart';
 import '../../../../shared_params/_/material_app_obj.dart';
 import '../../../build_app_widget/build_material_app/_.dart';
 
-@ReadyBeforeRunApp()
+@ReadyBeforeRunApp(index: 1.01)
 Future<void> readyForGoRouterModule() async {
+  setGoRouterPathUrlStrategy();
+
   currentMaterialApp = MaterialApp.router(
     routeInformationParser: go_router_delegate.routeInformationParser,
     routerDelegate: go_router_delegate.routerDelegate,
     routeInformationProvider: go_router_delegate.routeInformationProvider,
     localizationsDelegates: MaterialAppParams.localizationsDelegates,
-    supportedLocales: MaterialAppParams.supportedLocales ??
-        const <Locale>[Locale('en', 'US')],
+    supportedLocales: MaterialAppParams.supportedLocales ?? const <Locale>[Locale('en', 'US')],
     locale: MaterialAppParams.locale,
     title: MaterialAppParams.appName ?? 'June',
     theme: MaterialAppParams.lightTheme,
@@ -25,6 +26,4 @@ Future<void> readyForGoRouterModule() async {
       return materialAppInsideBuilder(context, child);
     },
   );
-
-  setGoRouterPathUrlStrategy();
 }

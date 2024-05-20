@@ -3,7 +3,7 @@ description: "Help Applying GoRouter in Flutter"
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/go_router_module
 
-version: 1.0.0+2
+version: 1.0.2
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -17,6 +17,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  widget_binding_module: #@add
 
 flutter:
   assets:
